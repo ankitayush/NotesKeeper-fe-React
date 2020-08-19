@@ -1,10 +1,10 @@
 import React from "react";
-
+import CopyrightIcon from '@material-ui/icons/Copyright';
 function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright ⓒ {year}</p>
+      <p>Ankit Ayush Copyright {year} <CopyrightIcon/> </p>
     </footer>
   );
 }
